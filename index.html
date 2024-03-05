@@ -3,10 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <title>My resume</title>
+        <style>
+            button {
+                border: 3px solid black;
+                border-radius: 10px;
+                background-color: white;
+            }
+            div {
+                display: grid;
+                justify-content: center;
+            }
+            #ita {
+                padding-top: 3px;
+                padding-bottom: 3px;
+            }
+        </style>
     </head>
     <body>
         <h1>Alessio</h1>
-        <img src="./assets/images/IMG_6796 copia.JPG" height="150">
+        <img src="" height="150">
         <h2>About me</h2>
         <p>I am an university student learning web development as an hobby with a background in mechanic industry (with few experience).</p>
         <hr />
@@ -66,10 +81,12 @@
             <li><a href="./public/Contact-me.html">Contact me</a></li>
         </ul>
         <hr />
-        <p>
-            <a href="./italiano.html">Italiano</a>
-            <a href="./日本語.html">日本語</a>
-        </p>
+        <div>
+            <p>
+            <button id="ita"><a href="./italiano.html">Italiano</a></button>
+            <button><a href="./日本語.html">日本語</a></button>
+            </p>
+        </div>
         <footer>
             <small>© Alessio. All rights reserved.</small>
         </footer>
